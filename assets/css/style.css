@@ -420,14 +420,7 @@ h6 {
   display: block;
 }
 
-/* Ajuste para mobile */
-@media (max-width: 768px) {
-  #hero {
-    min-height: 60vh;   /* menor altura no mobile */
-    padding: 20px;      /* respiro para o conteúdo não grudar nas bordas */
-    text-align: center; /* centraliza o texto/imagens no mobile */
-  }
-}
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -440,6 +433,13 @@ h6 {
   align-items: center;
   justify-content: center;
   overflow: hidden;      /* esconde partes que ultrapassarem */
+}
+@media (max-width: 768px) {
+  #hero {
+    min-height: 60vh;   /* menor altura no mobile */
+    padding: 20px;      /* respiro para o conteúdo não grudar nas bordas */
+    text-align: center; /* centraliza o texto/imagens no mobile */
+  }
 }
 
 .home{
@@ -1263,3 +1263,4 @@ section {
   border-color: #c3c3c3;
   color: #151515;
 }
+
