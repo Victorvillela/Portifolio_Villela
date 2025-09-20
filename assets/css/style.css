@@ -420,21 +420,26 @@ h6 {
   display: block;
 }
 
+/* Ajuste para mobile */
+@media (max-width: 768px) {
+  #hero {
+    min-height: 60vh;   /* menor altura no mobile */
+    padding: 20px;      /* respiro para o conteúdo não grudar nas bordas */
+    text-align: center; /* centraliza o texto/imagens no mobile */
+  }
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero 
-{
+#hero {
   width: 100%;
-  min-height: 80vh;
+  min-height: 80vh;      /* ocupa pelo menos 80% da altura da tela */
   position: relative;
-  overflow: hidden; 
   display: flex;
   align-items: center;
   justify-content: center;
-	height: 0;
-	overflow: hidden;
-	
+  overflow: hidden;      /* esconde partes que ultrapassarem */
 }
 
 .home{
