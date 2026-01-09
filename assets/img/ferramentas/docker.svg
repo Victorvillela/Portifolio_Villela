@@ -1,0 +1,11 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="20" fill="#2496ED"/>
+  <rect x="25" y="45" width="12" height="10" fill="white" stroke="#2496ED" stroke-width="1"/>
+  <rect x="38" y="45" width="12" height="10" fill="white" stroke="#2496ED" stroke-width="1"/>
+  <rect x="51" y="45" width="12" height="10" fill="white" stroke="#2496ED" stroke-width="1"/>
+  <rect x="38" y="35" width="12" height="10" fill="white" stroke="#2496ED" stroke-width="1"/>
+  <rect x="51" y="35" width="12" height="10" fill="white" stroke="#2496ED" stroke-width="1"/>
+  <rect x="64" y="45" width="12" height="10" fill="white" stroke="#2496ED" stroke-width="1"/>
+  <path d="M 20 55 Q 25 25, 50 25 T 80 55" stroke="white" stroke-width="2" fill="none"/>
+  <text x="50" y="92" font-family="Arial" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Docker</text>
+</svg>
